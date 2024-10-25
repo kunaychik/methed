@@ -5,9 +5,11 @@
   body {
     padding: 0 130px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
     color: #fff;
     background-color: #1B1A1B;
-    color: #FFFFFF;
   }
 
   .wrapper {
@@ -55,9 +57,7 @@
   .halls-title {
     margin: 0;
     margin-bottom: 60px;
-    font-weight: 700;
     font-size: 40px;
-    line-height: 125%;
     text-transform: uppercase;
     text-align: center;
   }
@@ -71,7 +71,6 @@
   .halls-item {
     width: 1180px;
     height: 710px;
-    font-weight: 700;
     font-size: 70px;
     line-height: 710px;
     text-transform: uppercase;
@@ -110,9 +109,7 @@
   .reservation-title {
     margin: 0;
     margin-bottom: 50px;
-    font-weight: 700;
     font-size: 40px;
-    line-height: 125%;
     text-transform: uppercase;
     text-align: center;
   }
@@ -136,9 +133,7 @@
   .about-us-title {
     margin: 0;
     margin-bottom: 50px;
-    font-weight: 700;
     font-size: 40px;
-    line-height: 125%;
     text-transform: uppercase;
     text-align: center;
   }
@@ -146,7 +141,6 @@
   .about-us-subtitle {
     margin: 0;
     font-weight: 400;
-    font-size: 20px;
     line-height: 140%;
   }
 
@@ -203,7 +197,6 @@
   .author-quote {
     margin: 0;
     font-weight: 400;
-    font-size: 20px;
     line-height: 140%;
     font-style: normal;
   }
@@ -215,9 +208,7 @@
   .contacts-title {
     margin: 0;
     margin-bottom: 54px;
-    font-weight: 700;
     font-size: 40px;
-    line-height: 125%;
     text-transform: uppercase;
     text-align: center;
   }
@@ -233,14 +224,12 @@
 
   .contact p {
     margin: 0;
-    font-weight: 700;
     font-size: 24px;
     line-height: 117%;
   }
 
   .contact a {
     margin: 0;
-    font-weight: 700;
     font-size: 24px;
     line-height: 117%;
     text-decoration: none;
