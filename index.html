@@ -10,84 +10,13 @@
 <body>
     <div class="wrapper">
 
-    <header>
-        <section>
-            <img src="img/logo.svg" alt="Логотип">
-            <h2>Меню</h2>
-            <nav>
-                <ul>
-                    <li><a href="#halls">Залы</a></li>
-                    <li><a href="#about_Us">О нас</a></li>
-                    <li><a href="#reservation">Бронь</a></li>
-                    <li><a href="#reviews">Отзывы</a></li>
-                    <li><a href="#contacts">Контакты</a></li>
-                </ul>
-            </nav>
-        </section>
-    </header>
-
     <main>
-        <section>
-            <h2>У нас есть всё для классного отдыха с друзьями!</h2>
-
-            <ul>
-                <li>
-                    <figure>
-                        <img src="img/vr.png" alt="VR очки">
-                        <figcaption>
-                            VR очки
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/audio.png" alt="Аудио-система">
-                        <figcaption>
-                            Аудио-система 5.1 с отличным звуком
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/micro.png" alt="Караоке">
-                        <figcaption>
-                            Караоке (4 микрофона)
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/game.png" alt="Настольные игры">
-                        <figcaption>
-                            Настольные игры
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/netflix.png" alt="Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko">
-                        <figcaption>
-                            Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/sony.png" alt="PlayStation 5">
-                        <figcaption>
-                            PlayStation 5
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </section>
-
         <section class="preview">
             <h1 class="preview-title">GAME OVER</h1>
             <p class="preview-subtitle">Новый формат игр и отдыха</p>
         </section>
 
-        <section>
+        <section class="halls">
             <h2 class="halls-title" id="halls">Наши залы</h2>
 
             <ol class="halls-list">
@@ -98,7 +27,7 @@
             </ol>
         </section>
 
-        <section>
+        <section class="reservation">
             <h2 class="reservation-title" id="reservation">ЗАБРОНИРОВАТЬ</h2>
 
             <form class="reservation-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
@@ -255,7 +184,7 @@
             </form>
         </section>
 
-        <article>
+        <section class="about-us">
             <h2 class="about-us-title" id="about_Us">О нас</h2>
 
             <p class="about-us-subtitle">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
@@ -271,36 +200,9 @@
                 </div>
                 
             </blockquote>
-        </article>
+        </section>
 
-        <article>
-            <h2 id="reviews">ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
-            <ul>
-                <li>
-                    <figure>
-                        <img src="#" alt="Макс Самойлов">
-                        <figcaption>Макс Самойлов</figcaption>
-                    </figure>
-                    <p>Отмечали здесь день рождение с компанией друзей, всё было очень круто! VR очки это просто бомба, никогда ещё я не был в таком полном игровом окружении. Сервис на высоте!</p>
-                </li>
-                <li>
-                    <figure>
-                        <img src="#" alt="Оксана Григорьевна">
-                        <figcaption>Оксана Григорьевна</figcaption>
-                    </figure>
-                    <p>Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпаратив! У нас в городе больше нет подобных заведений</p>
-                </li>
-                <li>
-                    <figure>
-                        <img src="#" alt="Никита Ященко">
-                        <figcaption>Никита Ященко</figcaption>
-                    </figure>
-                    <p>Немного подвисала игра в VR очках, а так всё норм. Крутое оформление комнаты в стиле звёздных войн, попал в атмосферу космоса</p>
-                </li>
-            </ul>
-        </article>
-
-        <section>
+        <section class="faq">
             <h2 class="faq-title">Частые вопросы</h2>
             <ul class="faq-list">
                 <li class="faq-item">Можно ли забронировать комнату онлайн?</li>
@@ -314,7 +216,7 @@
     </main>
 
     <footer>
-        <article>
+        <section class="contacts">
             <h2 class="contacts-title" id="contacts">Контакты</h2>
             <address>
                 <div class="contact">
@@ -368,7 +270,7 @@
                     </li>
                 </ul>
             </address>
-        </article>
+        </section>
     </footer>
 
     </div>

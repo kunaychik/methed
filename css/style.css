@@ -16,9 +16,9 @@
   }
 
   .preview {
-    min-height: 823px;
+    padding-top: 146px;
+    min-height: 970px;
     max-width: 1180px;
-    margin-top: 146px;
   }
 
   .preview-title {
@@ -48,9 +48,13 @@
     line-height: 179%;
   }
 
+  .halls {
+    padding-top: 100px;
+  }
+
   .halls-title {
     margin: 0;
-    padding-top: 100px;
+    margin-bottom: 60px;
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
@@ -59,11 +63,12 @@
   }
 
   .halls-list {
+    margin: 0;
+    padding: 0;
     list-style: none;
   }
 
   .halls-item {
-    margin-top: 60px;
     width: 1180px;
     height: 710px;
     font-weight: 700;
@@ -71,6 +76,10 @@
     line-height: 710px;
     text-transform: uppercase;
     text-align: center;
+  }
+
+  .halls-item:not(:last-child) {
+    margin-bottom: 60px;
   }
 
   .halls-item a {
@@ -94,18 +103,18 @@
     background-image: url(../img/neon_style.png);
   }
 
+  .reservation {
+    padding-top: 100px;
+  }
+
   .reservation-title {
     margin: 0;
-    padding-top: 100px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
     text-transform: uppercase;
     text-align: center;
-  }
-
-  .reservation-form {
-    padding-top: 50px;
   }
 
   .reservation-list {
@@ -120,9 +129,13 @@
     display: flex;
   }
 
+  .about-us {
+    padding-top: 100px;
+  }
+
   .about-us-title {
     margin: 0;
-    padding: 100px 0 50px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
@@ -138,7 +151,7 @@
   }
 
   .about-us-subtitle:first-of-type {
-    padding-bottom: 42px;
+    margin-bottom: 42px;
   }
 
   blockquote{
@@ -184,21 +197,24 @@
   .author-img {
     width: 80px;
     height: 80px;
+    margin-right: 29px;
   }
 
   .author-quote {
     margin: 0;
-    margin-left: 29px;
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
     font-style: normal;
   }
 
+  .contacts {
+    padding-top: 100px;
+  }
+
   .contacts-title {
     margin: 0;
-    padding-top: 100px;
-    padding-bottom: 54px;
+    margin-bottom: 54px;
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
@@ -212,11 +228,11 @@
 
   .contact svg {
     color: #CD06FF;
+    margin-right: 30px;
   }
 
   .contact p {
     margin: 0;
-    margin-left: 30px;
     font-weight: 700;
     font-size: 24px;
     line-height: 117%;
@@ -224,7 +240,6 @@
 
   .contact a {
     margin: 0;
-    margin-left: 30px;
     font-weight: 700;
     font-size: 24px;
     line-height: 117%;
@@ -233,12 +248,12 @@
   }
 
   .contact:first-of-type {
-    padding-bottom: 51px;
+    margin-bottom: 51px;
   }
 
   .socials {
-    margin-top: 35px;
-    padding: 0;
+    margin: 0;
+    padding: 39px 0 51px 0;
     display: flex;
     list-style: none;
   }
