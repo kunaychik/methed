@@ -18,8 +18,8 @@
   }
 
   .preview {
-    padding-top: 146px;
-    min-height: 970px;
+    padding: 146px 0 50px;
+    min-height: 1020px;
     max-width: 1180px;
   }
 
@@ -51,7 +51,7 @@
   }
 
   .halls {
-    padding-top: 100px;
+    padding: 50px 0 50px;
   }
 
   .halls-title {
@@ -103,7 +103,7 @@
   }
 
   .reservation {
-    padding-top: 100px;
+    padding: 50px 0 50px;
   }
 
   .reservation-title {
@@ -127,7 +127,7 @@
   }
 
   .about-us {
-    padding-top: 100px;
+    padding: 50px 0 50px;
   }
 
   .about-us-title {
@@ -200,9 +200,12 @@
     line-height: 140%;
     font-style: normal;
   }
+  address {
+    margin-bottom: 39px;
+  }
 
   .contacts {
-    padding-top: 100px;
+    padding: 50px 0 50px;
   }
 
   .contacts-title {
@@ -242,7 +245,6 @@
 
   .socials {
     margin: 0;
-    padding: 39px 0 51px 0;
     display: flex;
     list-style: none;
   }
