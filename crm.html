@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="main">
+        <section class="card">
+            <div class="container">
+                <h1 class="card__title">Добавить товар</h1>
+
+                <form class="card__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                    <ul class="card__list">
+                        <li class="card__item">
+                            <label for="name" class="card__label">Наименование</label>
+                            <input type="text" class="card__input" id="name" name="name">
+                        </li>
+
+                        <li class="card__item">
+                            <label for="category" class="card__label">Категория</label>
+                            <input type="text" class="card__input" id="category" name="category">
+                        </li>
+
+                        <li class="card__item">
+                            <label for="units" class="card__label">Единицы измерения</label>
+                            <input type="text" class="card__input" id="units" name="units">
+                        </li>
+
+                        <li class="card__item">
+                            <label for="" class="card__label">Дисконт</label>
+                            <div class="card__discont">
+                                <input type="checkbox" class="card__checkbox">
+                                <input type="text" class="card__disabled"> 
+                            </div>
+                        </li>
+
+                        <li class="card__item">
+                            <label for="description" class="card__label">Описание</label>
+                            <textarea class="card__input" id="description" name="description"></textarea>
+                        </li>
+
+                        <li class="card__item">
+                            <label for="quantity" class="card__label">Количество</label>
+                            <input type="text" class="card__input" id="quantity" name="quantity">
+                        </li>
+
+                        <li class="card__item">
+                            <label for="price" class="card__label">Цена</label>
+                            <input type="text" class="card__input" id="price" name="price">
+                        </li>
+
+                    </ul>
+                </form>
+
+                <button class="button">Добавить товар</button>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
