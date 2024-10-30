@@ -2,7 +2,7 @@
     margin-bottom: 39px;
   }
 
-  .footer__title {
+  .contacts__title {
     margin-bottom: 54px;
     font-size: 40px;
     text-transform: uppercase;
@@ -27,12 +27,12 @@
     margin-bottom: 51px;
   }
 
-  .footer__socials {
+  .contacts__socials {
     margin: 0;
     display: flex;
     list-style: none;
   }
 
-  .footer__social{
+  .contacts__social{
     margin-right: 26px;
   }

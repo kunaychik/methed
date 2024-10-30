@@ -24,18 +24,18 @@
     color: #fff;
   }
 
-  .halls__item_vibes {
+  .halls__item-vibes {
     background-image: url(../img/halls/vibes.png);
   }
 
-  .halls__item_star-wars {
+  .halls__item-star-wars {
     background-image: url(../img/halls/star_wars.png);
   }
 
-  .halls__item_wild-west {
+  .halls__item-wild-west {
     background-image: url(../img/halls/wild_west.png);
   }
 
-  .halls__item_neon-style {
+  .halls__item-neon-style {
     background-image: url(../img/halls/neon_style.png);
   }
