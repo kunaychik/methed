@@ -5,6 +5,15 @@
     text-align: center;
   }
 
+  .about-us__content {
+    display: flex;
+    margin: auto;
+  }
+
+  .about-us__img {
+    margin-right: 80px;
+  }
+
   .about-us__subtitle {
     
     font-weight: 400;
@@ -16,8 +25,8 @@
   }
 
   .blockquote__paragraph {
-    padding: 70px 0 40px 55px;
-
+    padding: 59px 0 40px 31px;
+    
     font-weight: 400;
     font-size: 44px;
     line-height: 114%;
@@ -27,11 +36,12 @@
   .blockquote__paragraph::before{
     content: "";
     position: absolute;
-    left: 3em;
+    left: 18.4em;
     height: 25px;
     width: 25px;
     background-image: url(../img/about-us/“.svg);
     background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .blockquote__paragraph::after{
