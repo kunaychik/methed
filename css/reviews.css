@@ -1,0 +1,40 @@
+.reviews__title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reviews__content {
+    padding: 0 100px;
+}
+
+.reviews__review {
+    display: flex;
+}
+
+.reviews__review:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.reviews__author {
+    margin-right: 20px;
+}
+
+.reviews__img {
+    height: auto;
+    min-width: 280px;
+}
+
+.reviews__figcaption {
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+}
+
+.reviews__text {
+    padding-top: 52px;
+    font-weight: 400;
+    line-height: 140%;
+}
