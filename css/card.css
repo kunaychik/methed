@@ -1,5 +1,12 @@
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
-    padding: 32px 106px 0;
+  padding: 32px 106px 0;
 }
 
 .card__title {
