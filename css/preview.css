@@ -1,6 +1,10 @@
   .preview {
-    margin: auto;
-    min-height: 920px;
+    padding: 0 130px;
+  }
+
+  .preview__content {
+    padding-top: 100px;
+    min-height: 923px;
     max-width: 1440px;
   }
 

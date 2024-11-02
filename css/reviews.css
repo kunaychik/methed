@@ -1,3 +1,7 @@
+.reviews {
+    padding: 0 130px;
+}
+
 .reviews__title {
     margin-bottom: 40px;
     font-size: 40px;

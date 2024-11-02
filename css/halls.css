@@ -1,3 +1,7 @@
+   .halls {
+    padding: 0 130px;
+   }
+
    .halls__title {
     margin-bottom: 60px;
     font-size: 40px;
@@ -5,15 +9,11 @@
     text-align: center;
   }
 
-  .halls__first-row {
+  .halls__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
-  }
-
-  .halls__second-row {
-    display: flex;
-    justify-content: center;
+    align-items: center;
   }
 
   .halls__item {
@@ -25,8 +25,12 @@
     text-align: center;
   }
 
-  .halls__item:not(:last-child) {
+  .halls__item:nth-of-type(odd) {
     margin-right: 20px;
+  }
+
+  .halls__item:nth-child(-n+2) {
+    margin-bottom: 20px;
   }
 
   .halls__link {

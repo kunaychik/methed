@@ -1,3 +1,7 @@
+  .about-us {
+    padding: 0 130px;
+  }
+  
   .about-us__title {
     margin-bottom: 50px;
     font-size: 40px;
@@ -12,6 +16,12 @@
 
   .about-us__img {
     margin-right: 80px;
+    min-width: 600px;
+    min-height: 596px;
+    background-image: url(../img/about-us/img_about_us.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
   }
 
   .about-us__subtitle {
