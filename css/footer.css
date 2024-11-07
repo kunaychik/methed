@@ -1,0 +1,26 @@
+.footer__border {
+    padding: 25px 150px;
+    margin: auto;
+    width: 1440px;
+}
+
+.footer__container {
+    padding: 25px 45px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.footer__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+}
+
+.footer__list {
+    margin-bottom: 30px;
+}
+
+.footer__item:not(:last-child) {
+    margin-bottom: 10px;
+}

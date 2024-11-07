@@ -1,35 +1,15 @@
-  .preview {
-    padding: 0 130px;
-  }
+.preview {
+    padding-top: 35px;
+}
 
-  .preview__content {
-    padding-top: 100px;
-    min-height: 923px;
-    max-width: 1440px;
-  }
-
-  .preview__title {
-    position: relative;
-
+.preview__title {
+    margin-bottom: 30px;
+    
     font-weight: 900;
-    font-size: 150px;
-    line-height: 100%;
-    letter-spacing: -0.1em;
-  }
+    font-size: 60px;
+    line-height: 120%;
+}
 
-  .preview__title::after {
-    content: "";
-    position: absolute;
-    top: 61px;
-    right: 0;
-    width: 675px;
-    height: 762px;
-    background-image: url(../img/preview/preview.png);
-  }
-
-  .preview__subtitle {
-    padding-left: 100px;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 179%;
-  }
+.preview__text:not(:last-child) {
+    margin-bottom: 30px;
+}

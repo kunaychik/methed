@@ -1,10 +1,9 @@
-@import url(preview.css);
-@import url(halls.css);
-@import url(reservation.css);
-@import url(about-us.css);
-@import url(reviews.css);
-@import url(faq.css);
-@import url(contacts.css);
+  @import url(preview.css);
+  @import url(content.css);
+  @import url(first-section.css);
+  @import url(second-section.css);
+  @import url(third-section.css);
+  @import url(footer.css);
 
   html {
     box-sizing: border-box;
@@ -15,16 +14,16 @@
   }
 
   body {
-    min-width: 320px;
+    min-width: 560px;
     min-height: 100vw;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 125%;
+    line-height: 120%;
 
-    color: #fff;
-    background-color: #1B1A1B;
+    color: black;
+    background-color: white;
   }
 
   img {
@@ -52,9 +51,7 @@
   }
 
   .container {
-    width: 1180px;
+    width: 1440px;
     margin: auto;
-    padding: 50px 0;
+    padding: 25px 180px;
   }
-
-

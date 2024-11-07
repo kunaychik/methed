@@ -1,0 +1,28 @@
+.first-section__title {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+}
+
+.first-section__paragraph {
+    display: flex;
+}
+
+.first-section__paragraph:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.first-section__img_margin_right {
+    margin-right: 30px;
+}
+
+.first-section__texts_margin_right {
+    margin-right: 40px;
+}
+
+.first-section__text:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+

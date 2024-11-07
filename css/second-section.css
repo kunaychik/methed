@@ -1,0 +1,35 @@
+.second-section__title {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+}
+
+.second-section__figure {
+    margin-bottom: 30px;
+}
+
+.second-section__figcaption {
+    margin-bottom: 30px;
+}
+
+.second-section__img {
+    display: flex;
+    justify-self: center;
+}
+
+.second-section__img_margin_bottom {
+    margin-bottom: 30px;
+}
+
+.second-section__text-warning {
+    padding: 15px 30px;
+    font-size: 20px;
+    line-height: 120%;
+    color: #5e5e5e;
+    border: 1px solid #000;
+}
+
+.second-section__text:not(:last-child) {
+    margin-bottom: 30px;
+}

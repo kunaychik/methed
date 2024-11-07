@@ -1,0 +1,27 @@
+.third-section__title {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+}
+
+.third-section__text {
+    margin-bottom: 30px;
+}
+
+.third-section__figure:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.third-section__figcaption {
+    margin-bottom: 30px;
+}
+
+.third-section__img {
+    display: flex;
+    justify-self: center;
+}
+
+.third-section__img_margin_bottom {
+    margin-bottom: 30px;
+}
