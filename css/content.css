@@ -1,11 +1,11 @@
-.content__border {
-    padding: 25px 150px;
-    margin: auto;
-    width: 1440px;
+.content {
+    padding: 25px 0;
 }
 
 .content__container {
     padding: 25px 45px;
+    margin: auto;
+    max-width: 1140px;
     background-color: #f1f1f1;
     border-radius: 10px;  
 }
