@@ -2,14 +2,6 @@
     padding: 25px 0;
 }
 
-.content__container {
-    padding: 25px 45px;
-    margin: auto;
-    max-width: 1140px;
-    background-color: #f1f1f1;
-    border-radius: 10px;  
-}
-
 .content__title {
     margin-bottom: 20px;
     font-weight: 700;

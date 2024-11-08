@@ -4,6 +4,7 @@
   @import url(second-section.css);
   @import url(third-section.css);
   @import url(footer.css);
+  @import url(container.css);
 
   html {
     box-sizing: border-box;
@@ -48,10 +49,4 @@
 
   h1, h2, h3, p, figure, fieldset, blockquote {
     margin: 0;
-  }
-
-  .container {
-    width: 1440px;
-    margin: auto;
-    padding: 0 180px;
   }
