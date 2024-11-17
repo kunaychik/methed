@@ -1,0 +1,47 @@
+.equipment__title {
+    margin: auto;
+    margin-bottom: 41px;
+    width: 710px;
+    font-size: 40px;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.equipment__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+}
+
+.equipment__item {
+    padding: 166px 40px 0;
+    height: 228px;
+    width: 380px;
+    line-height: 140%;
+    background-repeat: no-repeat;
+}
+
+.equipment__item_VR {
+    background-image: url(../img/equipment/VR.png);
+}
+
+.equipment__item_audio-system {
+    background-image: url(../img/equipment/audio.png);
+}
+
+.equipment__item_karaoke {
+    background-image: url(../img/equipment/karaoke.png);
+}
+
+.equipment__item_board-games {
+    background-image: url(../img/equipment/board-games.png);
+}
+
+.equipment__item_cinema-services {
+    background-image: url(../img/equipment/cinema.png);
+}
+
+.equipment__item_РlаyStаtiоn {
+    background-image: url(../img/equipment/РlаyStаtiоn.png);
+}

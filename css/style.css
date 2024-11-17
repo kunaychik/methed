@@ -1,10 +1,13 @@
+@import url(header.css);
 @import url(preview.css);
+@import url(equipment.css);
 @import url(halls.css);
 @import url(reservation.css);
 @import url(about-us.css);
 @import url(reviews.css);
 @import url(faq.css);
-@import url(contacts.css);
+@import url(footer.css);
+@import url(container.css);
 
   html {
     box-sizing: border-box;
@@ -25,6 +28,10 @@
 
     color: #fff;
     background-color: #1B1A1B;
+  }
+
+  section {
+    padding: 50px 0;
   }
 
   img {
@@ -51,10 +58,9 @@
     margin: 0;
   }
 
-  .container {
-    width: 1180px;
-    margin: auto;
-    padding: 50px 0;
+  fieldset {
+    padding: 0;
   }
+
 
 
