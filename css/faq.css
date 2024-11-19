@@ -1,7 +1,3 @@
-.faq {
-
-}
-
 .faq__title {
     margin: 0;
     margin-bottom: 40px;
@@ -38,18 +34,35 @@
     background-color: #440F51;
 }
 
-.faq__item:after{
+.faq__item:after {
     content: "";
     display: inline-block;
     width: 46px;
     height: 46px;
     background-image: url(../img/faq/open-purple.svg);
     background-size: contain;
+    cursor: pointer;
 }
 
 .faq__item:nth-of-type(even):after {
     content: "";
     background-image: url(../img/faq/open.svg);
     background-size: contain;
+    cursor: pointer;
 }
 
+.faq__item:hover:after {
+    background-image: url(../img/faq/open-purple-hover.svg);
+}
+
+.faq__item:active:after {
+    background-image: url(../img/faq/close-purple-acrive.svg);
+}
+
+.faq__item:nth-of-type(even):hover:after {
+    background-image: url(../img/faq/open-hover.svg);
+}
+
+.faq__item:nth-of-type(even):active:after {
+    background-image: url(../img/faq/close-acrive.svg);
+}

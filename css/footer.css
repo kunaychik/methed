@@ -55,6 +55,23 @@
     margin-right: 26px;
   }
 
+  .contacts__img {
+    cursor: pointer;
+  }
+
+  .contacts__img:hover {
+    fill: #eadeed;
+  }
+
+  .contacts__img:focus {
+    fill: #eadeed;
+    border: 1px solid #cd06ff;
+  }
+
+  .contacts__img:active {
+    fill: #cd06ff;
+  }
+
   .contacts__map {
     width: 680px;
     height: 274px;

@@ -17,10 +17,6 @@
     gap: 40px;
 }
 
-.header__item {
-
-}
-
 .header__link {
     font-weight: 400;
     font-size: 22px;
@@ -38,4 +34,14 @@
     background-color: transparent;
     border: 3px solid #cd06ff;
     border-radius: 10px;
+}
+
+.header__button:hover, .header__button:focus {
+    border: 3px solid #6c0287;
+    background-color: #6c0287;
+}
+
+.header__button:active {
+    border: 1px solid #000;
+    background-color: #640aa3;
 }

@@ -39,6 +39,20 @@
     border-radius: 8px;
   }
 
+  .reservation__label-hall:hover {
+    border: 3px solid #640aa3;
+    background-color: #eadeed;
+  }
+
+  .reservation__label-hall:focus {
+    border: 3px solid #640aa3;
+  }
+
+  .reservation__label-hall:active {
+    border: 3px solid #fff;
+    background-color: #6c0287;
+  }
+
   .reservation__fieldset-entertainment {
     display: flex;
     gap: 100px;
@@ -66,12 +80,21 @@
     fill: #fff;
   }
 
+  .reservation__input-radio:focus {
+    border: 1px solid #cd06ff;
+  }
+
   .reservation__input-checkbox {
     width: 25px;
     height: 25px;
     margin-right: 12px;
     background-color: #fff;
   }
+
+  .reservation__input-checkbox:focus {
+    border: 1px solid #cd06ff;
+  }
+
 
   .reservation__label-entertainment {
     font-weight: 400;
@@ -143,6 +166,10 @@
     height: 52px;
   }
 
+  .reservation__input:focus {
+    border: 2px solid #cd06ff;
+  }
+
   .reservation__input_none {
     display: none;
   }
@@ -164,6 +191,19 @@
     color: #6c0287;
     border-radius: 10px;
     border-color: #fff;
+  }
+
+  .reservation__button:hover {
+    border: 3px solid #6c0287;
+    background-color: #eadeed;
+  }
+
+  .reservation__button:focus {
+    border: 3px solid #6c0287;
+  }
+
+  .reservation__button:active {
+    background-color: #eadeed;
   }
 
 

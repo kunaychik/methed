@@ -94,10 +94,34 @@
     border: transparent;
   }
 
+  .preview__button:hover, .preview__button:focus {
+    background-color: #840aa3;
+  }
+
+  .preview__button:active {
+    background-color: #640aa3;
+  }
+
   .preview__button-down {
+    height: 97px;
+    width: 97px;
     position: relative;
     left: 45%;
     bottom: 30px;
     border: none;
     background-color: transparent;
+    background-image: url(../img/preview/button-down.svg);
   }
+
+  .preview__button-down:hover {
+    background-image: url(../img/preview/down-hover.svg);
+  }
+
+  .preview__button-down:focus {
+    border: 1px solid #cd06ff;
+  }
+
+  .preview__button-down:active {
+    background-image: url(../img/preview/down-active.svg);
+  }
+
