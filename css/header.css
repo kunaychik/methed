@@ -39,9 +39,13 @@
 .header__button:hover, .header__button:focus {
     border: 3px solid #6c0287;
     background-color: #6c0287;
+    transition-duration: 500ms;
+    transition-property: border, background-color;
 }
 
 .header__button:active {
     border: 1px solid #000;
     background-color: #640aa3;
+    transition-duration: 500ms;
+    transition-property: border, background-color;
 }

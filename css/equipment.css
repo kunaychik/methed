@@ -20,6 +20,7 @@
     width: 380px;
     line-height: 140%;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .equipment__item_VR {
@@ -44,4 +45,10 @@
 
 .equipment__item_РlаyStаtiоn {
     background-image: url(../img/equipment/РlаyStаtiоn.png);
+}
+
+.equipment__item:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    transition-duration: 300ms;
 }

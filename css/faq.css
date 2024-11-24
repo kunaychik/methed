@@ -53,16 +53,24 @@
 
 .faq__item:hover:after {
     background-image: url(../img/faq/open-purple-hover.svg);
+    transition-duration: 300ms;
+    transition-property: background-image;
 }
 
 .faq__item:active:after {
     background-image: url(../img/faq/close-purple-acrive.svg);
+    transition-duration: 300ms;
+    transition-property: background-image;
 }
 
 .faq__item:nth-of-type(even):hover:after {
     background-image: url(../img/faq/open-hover.svg);
+    transition-duration: 300ms;
+    transition-property: background-image;
 }
 
 .faq__item:nth-of-type(even):active:after {
     background-image: url(../img/faq/close-acrive.svg);
+    transition-duration: 300ms;
+    transition-property: background-image;
 }

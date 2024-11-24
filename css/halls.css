@@ -56,3 +56,9 @@
   .halls__item-neon-style {
     background-image: url(../img/halls/neon_style.png);
   }
+
+  .halls__item:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    transition-duration: 300ms;
+  }

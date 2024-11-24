@@ -61,15 +61,21 @@
 
   .contacts__img:hover {
     fill: #eadeed;
+    transition-duration: 300ms;
+    transition-property: fill;
   }
 
   .contacts__img:focus {
     fill: #eadeed;
     border: 1px solid #cd06ff;
+    transition-duration: 300ms;
+    transition-property: fill, border;
   }
 
   .contacts__img:active {
     fill: #cd06ff;
+    transition-duration: 300ms;
+    transition-property: fill;
   }
 
   .contacts__map {

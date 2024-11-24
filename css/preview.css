@@ -96,10 +96,14 @@
 
   .preview__button:hover, .preview__button:focus {
     background-color: #840aa3;
+    transition-duration: 500ms;
+    transition-property: background-color;
   }
 
   .preview__button:active {
     background-color: #640aa3;
+    transition-duration: 500ms;
+    transition-property: background-color;
   }
 
   .preview__button-down {
@@ -115,13 +119,19 @@
 
   .preview__button-down:hover {
     background-image: url(../img/preview/down-hover.svg);
+    transition-duration: 500ms;
+    transition-property: background-image;
   }
 
   .preview__button-down:focus {
     border: 1px solid #cd06ff;
+    transition-duration: 500ms;
+    transition-property: border;
   }
 
   .preview__button-down:active {
     background-image: url(../img/preview/down-active.svg);
+    transition-duration: 500ms;
+    transition-property: background-image;
   }
 
