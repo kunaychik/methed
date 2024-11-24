@@ -12,6 +12,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px 20px;
+    margin-bottom: 70px;
 }
 
 .equipment__item {
@@ -29,6 +30,8 @@
 
 .equipment__item_audio-system {
     background-image: url(../img/equipment/audio.png);
+    position: relative;
+    top: 70px;
 }
 
 .equipment__item_karaoke {
@@ -41,6 +44,9 @@
 
 .equipment__item_cinema-services {
     background-image: url(../img/equipment/cinema.png);
+    position: relative;
+    top: 70px;
+
 }
 
 .equipment__item_РlаyStаtiоn {

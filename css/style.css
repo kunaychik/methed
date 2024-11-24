@@ -17,6 +17,15 @@
     box-sizing: inherit;
   }
 
+  :root {
+    --backgrond-color: #1B1A1B;
+    --text-color: #fff;
+    --text-accented: #cd06ff;
+    --socials-color: #eadeed;
+    --color-actions: #640aa3;
+    --color-actions-light: #6c0287;
+  }
+
   body {
     min-width: 320px;
     min-height: 100vw;
@@ -26,8 +35,8 @@
     font-size: 20px;
     line-height: 125%;
 
-    color: #fff;
-    background-color: #1B1A1B;
+    color: var(--text-color);
+    background-color: var(--backgrond-color);
   }
 
   section {

@@ -23,7 +23,7 @@
   }
 
   .address__img {
-    color: #CD06FF;
+    color: var(--text-accented);
     margin-right: 30px;
   }
 
@@ -60,20 +60,20 @@
   }
 
   .contacts__img:hover {
-    fill: #eadeed;
+    fill: var(--socials-color);
     transition-duration: 300ms;
     transition-property: fill;
   }
 
   .contacts__img:focus {
-    fill: #eadeed;
-    border: 1px solid #cd06ff;
+    fill: var(--socials-color);
+    border: 1px solid var(--text-accented);
     transition-duration: 300ms;
     transition-property: fill, border;
   }
 
   .contacts__img:active {
-    fill: #cd06ff;
+    fill: var(--text-accented);
     transition-duration: 300ms;
     transition-property: fill;
   }

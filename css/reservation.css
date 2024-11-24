@@ -35,26 +35,26 @@
     text-transform: uppercase;
     text-align: center;
     color: #000;
-    background: #fff;
+    background: var(--text-color);
     border-radius: 8px;
   }
 
   .reservation__label-hall:hover {
-    border: 3px solid #640aa3;
-    background-color: #eadeed;
+    border: 3px solid var(--color-actions);
+    background-color: var(--socials-color);
     transition-duration: 200ms;
     transition-property: border, background-color;
   }
 
   .reservation__label-hall:focus {
-    border: 3px solid #640aa3;
+    border: 3px solid var(--color-actions);
     transition-duration: 200ms;
     transition-property: border;
   }
 
   .reservation__label-hall:active {
-    border: 3px solid #fff;
-    background-color: #6c0287;
+    border: 3px solid var(--text-color);
+    background-color: var(--color-actions-light);
     transition-duration: 200ms;
     transition-property: border, background-color;
   }
@@ -83,11 +83,11 @@
     height: 27px;
     margin-right: 12px;
     border-radius: 100%;
-    fill: #fff;
+    fill: var(--text-color);
   }
 
   .reservation__input-radio:focus {
-    border: 1px solid #cd06ff;
+    border: 1px solid var(--text-accented);
     transition-duration: 250ms;
     transition-property: border;
   }
@@ -96,11 +96,11 @@
     width: 25px;
     height: 25px;
     margin-right: 12px;
-    background-color: #fff;
+    background-color: var(--text-color);
   }
 
   .reservation__input-checkbox:focus {
-    border: 1px solid #cd06ff;
+    border: 1px solid var(--text-accented);
     transition-duration: 250ms;
     transition-property: border;
   }
@@ -135,7 +135,7 @@
     font-size: 18px;
     line-height: 156%;
     color: #211e1e;
-    background-color: #fff;
+    background-color: var(--text-color);
   }
 
   .reservation__item-date:nth-child(3) {
@@ -177,7 +177,7 @@
   }
 
   .reservation__input:focus {
-    border: 2px solid #cd06ff;
+    border: 2px solid var(--text-accented);
     transition-duration: 200ms;
     transition-property: border;
   }
@@ -200,26 +200,26 @@
     font-size: 22px;
     line-height: 127%;
     text-transform: uppercase;
-    color: #6c0287;
+    color: var(--color-actions-light);
     border-radius: 10px;
-    border-color: #fff;
+    border-color: var(--text-color);
   }
 
   .reservation__button:hover {
-    border: 3px solid #6c0287;
-    background-color: #eadeed;
+    border: 3px solid var(--color-actions-light);
+    background-color: var(--socials-color);
     transition-duration: 200ms;
     transition-property: border, background-color;
   }
 
   .reservation__button:focus {
-    border: 3px solid #6c0287;
+    border: 3px solid var(--color-actions-light);
     transition-duration: 200ms;
     transition-property: border;
   }
 
   .reservation__button:active {
-    background-color: #eadeed;
+    background-color: var(--socials-color);
     transition-duration: 200ms;
     transition-property: background-color;
   }
