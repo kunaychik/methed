@@ -1,3 +1,4 @@
+@import url(var.css);
 @import url(header.css);
 @import url(preview.css);
 @import url(equipment.css);
@@ -15,15 +16,6 @@
 
   * {
     box-sizing: inherit;
-  }
-
-  :root {
-    --backgrond-color: #1B1A1B;
-    --text-color: #fff;
-    --text-accented: #cd06ff;
-    --socials-color: #eadeed;
-    --color-actions: #640aa3;
-    --color-actions-light: #6c0287;
   }
 
   body {
