@@ -1,16 +1,11 @@
-@import url(var.css);
+@import url(container.css);
 @import url(header.css);
 @import url(preview.css);
-@import url(equipment.css);
-@import url(halls.css);
-@import url(reservation.css);
 @import url(about-us.css);
-@import url(reviews.css);
 @import url(faq.css);
 @import url(footer.css);
-@import url(container.css);
 
-  html {
+html {
     box-sizing: border-box;
   }
 
@@ -19,20 +14,21 @@
   }
 
   body {
+
     min-width: 320px;
     min-height: 100vw;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 125%;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
 
-    color: var(--text-color);
-    background-color: var(--backgrond-color);
+    color: #fff;
+    background-color: #fff;
   }
 
   section {
-    padding: 50px 0;
+    padding: 70px 0;
   }
 
   img {
@@ -62,6 +58,3 @@
   fieldset {
     padding: 0;
   }
-
-
-

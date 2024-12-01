@@ -1,82 +1,42 @@
-  .about-us__title {
-    margin-bottom: 50px;
-    font-size: 40px;
-    text-transform: uppercase;
-    text-align: center;
-  }
+.about-us {
 
-  .about-us__content {
-    display: flex;
-    margin: auto;
-  }
+}
 
-  .about-us__img {
-    margin-right: 80px;
-    min-width: 600px;
-    min-height: 596px;
-    background-image: url(../img/about-us/img_about_us.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+.about-us__title {
+    margin-bottom: 25px;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 35px;
+    color: #383a4c;
+}
 
-  }
+.about-us__subtitle {
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #383a4c;
+}
 
-  .about-us__subtitle {
-    
-    font-weight: 400;
-    line-height: 140%;
-  }
-
-  .about-us__subtitle:first-of-type {
-    margin-bottom: 42px;
-  }
-
-  .blockquote__paragraph {
-    padding: 34px 0 40px 31px;
-    
-    font-weight: 400;
-    font-size: 44px;
-    line-height: 114%;
-    text-transform: uppercase;
-  }
-
-  .blockquote__paragraph::before{
-    content: "";
+.about-us__text {
     display: block;
-    position: relative;
-    top: 20px;
-    right: 34px;
-    height: 25px;
-    width: 25px;
-    background-image: url(../img/about-us/“.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+    margin: auto;
+    width: 724px;
+    margin-bottom: 50px;
+    color: #383a4c;
+}
 
-  .blockquote__paragraph::after{
-    content: "";
-    position: absolute;
-    margin-left: 10px;
-    height: 25px;
-    width: 25px;
-    background-image: url(../img/about-us/“.svg);
-    background-size: contain;
-    transform: rotate(180deg);
-  }
-
-  .blockquote__author {
+.about-us__list {
     display: flex;
-    justify-self:flex-end;
-    width: 389px;
-  }
+    gap: 50px;
+}
 
-  .blockquote__img {
-    width: 80px;
-    height: 80px;
-    margin-right: 29px;
-  }
+.about-us__item {
+    height: 195px;
+    width: 195px;
+}
 
-  .blockquote__quote {
-    font-weight: 400;
-    line-height: 140%;
-    font-style: normal;
-  }
+.about-us__caption {
+    font-weight: 500;
+    font-size: 20px;
+    color: #383a4c;
+}
