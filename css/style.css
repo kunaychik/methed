@@ -4,6 +4,7 @@
 @import url(about-us.css);
 @import url(faq.css);
 @import url(footer.css);
+@import url(var.css);
 
 html {
     box-sizing: border-box;
@@ -23,12 +24,8 @@ html {
     font-size: 18px;
     text-align: center;
 
-    color: #fff;
-    background-color: #fff;
-  }
-
-  section {
-    padding: 70px 0;
+    color: var(--text-color);
+    background-color: var(--backgrond-color);
   }
 
   img {
@@ -57,4 +54,44 @@ html {
 
   fieldset {
     padding: 0;
+  }
+  
+  .slick-next {
+    right: 0px;
+    background-image: url(../img/slick/Right.svg);
+    width: 75px;
+    height: 88px;
+    border: none;
+    background-color: transparent;
+    color: transparent;
+    position: absolute;
+    top: 20%;
+    transition-duration: 300ms;
+    transition-property: opacity;
+  }
+
+  .slick-prev {
+    left: 0px;
+    background-image: url(../img/slick/Left.svg);
+    width: 75px;
+    height: 88px;
+    border: none;
+    background-color: transparent;
+    color: transparent;
+    position: absolute;
+    top: 20%;
+    transition-duration: 300ms;
+    transition-property: opacity;
+  }
+
+  .slick-next:hover {
+    opacity: 0.7;
+    transition-duration: 300ms;
+    transition-property: opacity;
+  }
+
+  .slick-prev:hover {
+    opacity: 0.7;
+    transition-duration: 300ms;
+    transition-property: opacity;
   }

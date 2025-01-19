@@ -1,13 +1,22 @@
 .container {
-    width: 1200px;
-    margin: auto;
-    padding: 0 200px;
-  }
+  max-width: 1200px;
+  margin: auto;
+}
 
-.header__container {
-    width: 100vw;
-    padding: 40px 200px 120px;
-    background-image: url(../img/preview/Background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1260px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
 }

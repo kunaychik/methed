@@ -1,0 +1,135 @@
+.faq {
+    max-width: 100vw;
+    padding: 70px 0;
+    background-image: url(../img/faq/Background-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.faq__title {
+    margin-bottom: 17px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: inherit;
+}
+
+.faq__subtitle {
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.faq__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    margin-bottom: 50px;
+}
+
+.faq__input {
+    border: 1.38px solid var(--text-color);
+    border-radius: 50px;
+    max-width: 423px;
+    padding: 9px 0 9px 25px;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+}
+
+.faq__button {
+    border-radius: 50px;
+    border-color: transparent;
+    box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
+    background-color: var(--backgrond-color-button);
+    padding: 11px 38px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: inherit;
+    transition-duration: 300ms;
+    transition-property: opacity;
+}
+
+.faq__button:hover {
+    opacity: 0.7;
+    transition-duration: 300ms;
+    transition-property: opacity;
+  }
+
+.faq__agree {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: inherit;
+}
+
+@media (max-width: 1024px) {
+    .faq {
+        padding: 70px 0 56px;
+    }
+    
+    .faq__title {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    
+    .faq__subtitle {
+        font-size: 20px;
+    }
+    
+    .faq__form {
+        gap: 20px;
+    }
+    
+    .faq__input {
+        border: 2px solid inherit;
+        max-width: 377px;
+        padding: 8px 0 8px 23px;
+        font-size: 20px;
+    }
+    
+    .faq__agree {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 767px) {
+    .faq {
+        padding: 30px 0;
+    }
+    
+    .faq__title {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    .faq__subtitle {
+        margin-bottom: 35px;
+        font-size: 12px;
+    }
+    
+    .faq__form {
+        gap: 15px;
+        margin-bottom: 45px;
+    }
+    
+    .faq__input {
+        max-width: 100%;
+        padding: 6px 0 6px 18px;
+        font-size: 14px;
+    }
+    
+    .faq__button {
+        padding: 10px 26px;
+        font-size: 16px;
+    }
+    
+    .faq__agree {
+        font-size: 11px;
+    }
+}

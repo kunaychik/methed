@@ -2,22 +2,36 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
     <title>Проект GO</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick Slider -->
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
     <link rel="icon" type="image/svg+xml" href="img/icon.svg">
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/slick.js"></script>
+
 </head>
 <body>
     <header class="header">
-        <div class="container header__container">
+        <div class="container">
             <nav class="header__navigation">
                 <a href="" class="header__link"><img src="/img/header/Logo.svg" alt="" class="header__logo"></a>
 
                 <div class="header__inf">
-                    <a class="header__tel" href="tel:+">+7 (962) 556 - 1234</a>
+                    <a class="header__tel" href="tel:+79625561234">+7 (962) 556 - 1234</a>
                     <button class="header__button">Перезвоните мне</button>
                 </div>
+
+                <a class="header__phone-svg" href="tel:+79625561234"><img src="/img/header/Phone.svg" alt=""></a>
             </nav>
 
             <div class="preview">
@@ -32,19 +46,27 @@
         <section class="about-us">
             <div class="container">
                 <h2 class="about-us__title">Уникальный заголовок для преимущества компании</h2>
-                <p class="about-us__subtitle">О нас</p>
+                <div class="about-us__subtitle">
+                    <p class="about-us__subtitle-separator"></p>
+                    <p class="about-us__subtitle-text">О нас</p>
+                    <p class="about-us__subtitle-separator"></p>
+                </div>
                 <p class="about-us__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
                 <ul class="about-us__list">
                     <li class="about-us__item">
+                        <p class="about-us__number">1</p>
                         <p class="about-us__caption">Первое целевое преимущество</p>
                     </li>
                     <li class="about-us__item">
+                        <p class="about-us__number">2</p>
                         <p class="about-us__caption">Второе целевое преимущество</p>
                     </li>
                     <li class="about-us__item">
+                        <p class="about-us__number">3</p>
                         <p class="about-us__caption">Третье целевое преимущество</p>
                     </li>
                     <li class="about-us__item">
+                        <p class="about-us__number">4</p>
                         <p class="about-us__caption">Четвертое целевое преимущество</p>
                     </li>
                 </ul>
@@ -52,37 +74,46 @@
         </section>
 
         <section class="faq">
-            <div class="container">
+            <div class="container faq__container">
                 <h2 class="faq__title">Остались вопросы?</h2>
                 <p class="faq__subtitle">Оставьте номер телефона, и мы перезвоним вам</p>
                 <form class="faq__form" action="">
                     <input type="text" class="faq__input" placeholder="Ваше имя">
                     <input type="text" class="faq__input" placeholder="Телефон">
                     <input type="text" class="faq__input" placeholder="E-mail">
-                    <button class="faq__button"></button>
+                    <button class="faq__button">позвоните мне</button>
                 </form>
-                <p class="faq__agree">Я даю своё согласие на обработку моих персональных данных.</p>
+                <p class="faq__agree">Я даю своё <span style="color: #4a76a8; text-decoration: underline;">согласие</span> на обработку моих персональных данных.</p>
             </div>
         </section>
 
     </main>
 
     <footer class="footer">
-        <div class="container">
+        <div class="container footer__container">
             <div class="footer__logo">
                 <a href="" class="header__link"><img src="/img/header/Logo.svg" alt="" class="header__logo"></a>
-                <p class="footer__logo-text">© 2022 XXXcompany. 
-                    Все права защищены.</p>
+                <div class="footer__logo-text">
+                    <p class="footer__logo-text">© 2022 XXXcompany.</p> 
+                    <p class="footer__logo-text">Все права защищены.</p>
+                </div>
+                
             </div>
 
             <p class="footer__text">Сделано в Ивановым Иваном</p>
 
-            <div class="footer__inf">
-                <a class="footer__tel" href="tel:+">+7 (962) 556 - 1234</a>
-                <button class="footer__button">Перезвоните мне</button>
+            <div class="header__inf">
+                <a class="header__tel" href="tel:+">+7 (962) 556 - 1234</a>
+                <button class="header__button">Перезвоните мне</button>
             </div>
+            <a class="header__phone-svg" href="tel:+79625561234"><img src="/img/header/Phone.svg" alt=""></a>
         </div>
     </footer>
+
+    <div class="footer__author">
+        <p class="footer__author-mob">Сделано в Ивановым Иваном</p>
+    </div>
+    
     
 </body>
 </html>
