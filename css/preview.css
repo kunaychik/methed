@@ -7,7 +7,7 @@
     display: block;
     margin: auto;
     line-height: normal;
-    margin-bottom: 35px;
+    margin-bottom: 33px;
     font-weight: 900;
     font-size: 52px;
     color: rgba(255, 255, 255, 0.86);
@@ -17,22 +17,27 @@
     display: block;
     margin: auto;
     max-width: 960px;
-    margin-bottom: 90px;
+    margin-bottom: 88px;
     color: rgba(255, 255, 255, 0.75);
     font-weight: 400;
     font-size: 22px;
+    line-height: 140%;
 }
+
+.preview__subtitle-mob {
+    display: none;
+  }
 
 .preview__button {
     display: block;
     margin: auto;
-    padding: 12px 48px;
+    padding: 11px 49px;
     background-color: var(--backgrond-color-button);
     box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
     border-radius: 50px;
     border-color: transparent;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 19px;
     color: inherit;
     transition-duration: 300ms;
     transition-property: opacity;
@@ -44,30 +49,49 @@
     transition-property: opacity;
   }
 
+  
 @media (max-width: 1024px) {
     .preview__title {
         margin-bottom: 27px;
         font-size: 40px;
+        max-width: 754px;
     }
     
     .preview__subtitle {
-        max-width: 754px;
-        margin-bottom: 60px;
+        margin-bottom: 56px;
         font-size: 18px;
         line-height: 141%;
+        max-width: 754px;
+    }
+
+    .preview__button {
+        font-size: 20px;
     }
     
 }
 
 @media (max-width: 767px) {
     .preview__title {
-        margin-bottom: 23px;
+        margin-bottom: 26px;
         font-size: 20px;
+        max-width: 780px;
     }
     
     .preview__subtitle {
+        display: none;
+    }
+
+    .preview__subtitle-mob {
+        display: block;
         max-width: 100%;
         margin-bottom: 54px;
         font-size: 14px;
+        line-height: 140%;
     }
+    
+    .preview__button {
+        font-size: 16px;
+        padding: 7px 37px;
+    }
+    
 }

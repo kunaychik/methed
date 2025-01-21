@@ -5,14 +5,14 @@
 
 .footer__logo {
     display: flex;
-    gap: 19px;
+    gap: 17px;
     align-items: center;
 }
 
 .footer__logo-text {
     font-weight: 500;
     font-size: 12px;
-    line-height: 141%;
+    line-height: 147%;
     color: inherit;
 }
 
@@ -32,15 +32,25 @@
     .footer {
         padding: 37px 0 49px;
     } 
+
+    .footer__text {
+        line-height: 131%;
+        padding-right: 18px;
+    }
 }
 
 @media (max-width: 767px) {
     .footer {
         padding: 25px 0;
     }
+
+    .header__link {
+        padding-top: 2px;
+    }
     
     .footer__logo-text {
         font-size: 8px;
+        line-height: 163%;
     }
     
     .footer__text {
@@ -49,7 +59,7 @@
     
     .footer__author {
         display: block;
-        padding: 15px 0;
+        padding: 8px 0;
         background-color: #2A2C3F;
     }
 

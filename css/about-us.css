@@ -27,16 +27,16 @@
 
 .about-us__subtitle-text {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 24px;
     color: var(--text-color-dark);
 }
 
 .about-us__text {
     max-width: 724px;
-    margin: 0 auto 50px;
+    margin: 0 auto 60px;
     font-weight: 400;
     font-size: 18px;
-    line-height: 141%;
+    line-height: 135%;
     text-align: center;
     color: var(--text-color-dark);
 }
@@ -60,7 +60,7 @@
 .about-us__number {
     width: 122px;
     height: 122px;
-    padding-top: 32px;
+    padding-top: 37px;
     border-radius: 100%;
     background-color: var(--backgrond-color-button);
     font-weight: 500;
@@ -73,12 +73,13 @@
 .about-us__caption {
     font-weight: 500;
     font-size: 20px;
-    line-height: 141%;
+    line-height: 139%;
     text-align: center;
     color: var(--text-color-dark);
 }
 
 @media (max-width: 1024px) {
+
     .about-us__title {
         margin-bottom: 23px;
         font-size: 32px;
@@ -86,7 +87,7 @@
     
     .about-us__subtitle {
         gap: 20px;
-        margin-bottom: 33px;
+        margin-bottom: 28px;
     }
     
     .about-us__subtitle-separator {
@@ -94,12 +95,13 @@
     }
     
     .about-us__subtitle-text {
-        font-size: 20px;
+        font-size: 22px;
     }
     
     .about-us__text {
         max-width: 666px;
         font-size: 16px;
+        margin: 0 auto 64px;
     }
     
     .about-us__item {
@@ -111,27 +113,36 @@
     .about-us__number {
         width: 104px;
         height: 104px;
-        padding-top: 22px;
+        padding-top: 26px;
         font-size: 52px;
     }
     
     .about-us__caption {
-        font-size: 18px;
+        font-size: 19px;
+        line-height: 123%;
     }
 }
 
 @media (max-width: 767px) {
+    .about-us {
+        padding: 32px 0;
+    }
+
     .about-us__title {
-        margin-bottom: 15px;
+        margin-bottom: 17px;
         font-size: 20px;
+        letter-spacing: -0.2px;
     }
     
     .about-us__subtitle {
-        margin-bottom: 26px;
+        margin-bottom: 28px;
+        gap: 24px;
+        
     }
     
     .about-us__subtitle-separator {
-        width: 19px;
+        width: 21px;
+        height: 1px;
     }
     
     .about-us__subtitle-text {
@@ -141,7 +152,8 @@
     .about-us__text {
         max-width: 100%;
         font-size: 12px;
-        margin-bottom: 40px;
+        line-height: 143%;
+        margin-bottom: 41px;
     }
     
     .about-us__caption {

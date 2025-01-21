@@ -6,9 +6,12 @@
 @import url(footer.css);
 @import url(var.css);
 
+
+
 html {
     box-sizing: border-box;
   }
+  
 
   * {
     box-sizing: inherit;
@@ -19,7 +22,7 @@ html {
     min-width: 320px;
     min-height: 100vw;
 
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto";
     font-weight: 400;
     font-size: 18px;
     text-align: center;
@@ -57,7 +60,7 @@ html {
   }
   
   .slick-next {
-    right: 0px;
+    right: -15px;
     background-image: url(../img/slick/Right.svg);
     width: 75px;
     height: 88px;
@@ -65,13 +68,13 @@ html {
     background-color: transparent;
     color: transparent;
     position: absolute;
-    top: 20%;
+    top: 29%;
     transition-duration: 300ms;
     transition-property: opacity;
   }
 
   .slick-prev {
-    left: 0px;
+    left: -15px;
     background-image: url(../img/slick/Left.svg);
     width: 75px;
     height: 88px;
@@ -79,7 +82,7 @@ html {
     background-color: transparent;
     color: transparent;
     position: absolute;
-    top: 20%;
+    top: 29%;
     transition-duration: 300ms;
     transition-property: opacity;
   }
