@@ -1,5 +1,20 @@
 @import url(var.css);
 @import url(container.css);
+@import url(header.css);
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 html {
     box-sizing: border-box;
@@ -14,7 +29,7 @@ html {
     min-width: 320px;
     min-height: 100vw;
 
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 18px;
     text-align: center;
