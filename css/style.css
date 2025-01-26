@@ -1,17 +1,9 @@
-@import url(container.css);
-@import url(header.css);
-@import url(preview.css);
-@import url(about-us.css);
-@import url(faq.css);
-@import url(footer.css);
 @import url(var.css);
-
-
+@import url(container.css);
 
 html {
     box-sizing: border-box;
   }
-  
 
   * {
     box-sizing: inherit;
@@ -22,7 +14,7 @@ html {
     min-width: 320px;
     min-height: 100vw;
 
-    font-family: "Roboto";
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 18px;
     text-align: center;
@@ -59,42 +51,3 @@ html {
     padding: 0;
   }
   
-  .slick-next {
-    right: -15px;
-    background-image: url(../img/slick/Right.svg);
-    width: 75px;
-    height: 88px;
-    border: none;
-    background-color: transparent;
-    color: transparent;
-    position: absolute;
-    top: 29%;
-    transition-duration: 300ms;
-    transition-property: opacity;
-  }
-
-  .slick-prev {
-    left: -15px;
-    background-image: url(../img/slick/Left.svg);
-    width: 75px;
-    height: 88px;
-    border: none;
-    background-color: transparent;
-    color: transparent;
-    position: absolute;
-    top: 29%;
-    transition-duration: 300ms;
-    transition-property: opacity;
-  }
-
-  .slick-next:hover {
-    opacity: 0.7;
-    transition-duration: 300ms;
-    transition-property: opacity;
-  }
-
-  .slick-prev:hover {
-    opacity: 0.7;
-    transition-duration: 300ms;
-    transition-property: opacity;
-  }

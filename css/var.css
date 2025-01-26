@@ -1,6 +1,7 @@
 :root {
     --backgrond-color: #f9f9f9;
     --text-color: #fff;
-    --text-color-dark: #383a4c;
-    --backgrond-color-button: #15a9cb;
+    --text-color-dark: #2D2D2D;
+    --text-color-red: #F91155;
+    --backgrond-color-button: #3670C7;
   }
