@@ -1,6 +1,7 @@
 @import url(var.css);
 @import url(container.css);
 @import url(header.css);
+@import url(gallery.css);
 
 @font-face {
   font-family: 'Lato';
@@ -66,3 +67,6 @@ html {
     padding: 0;
   }
   
+  .main {
+    padding-top: 45px;
+  }

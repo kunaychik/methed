@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header__grid">
             <img class="header__log" src="/img/header/Logo.svg" alt="">
 
             <button class="header__button">
@@ -22,42 +22,49 @@
                         <rect width="24" height="24" fill="white" />
                       </clipPath>
                     </defs>
-                  </svg>
-                  Меню
+                  </svg>       
+                  Меню 
             </button>
+            
             
             <div class="header__search">
                 <input class="header__input-search" type="text" placeholder="Я ищу...">
-                <button class="header__button-search">
-                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_10301_7)">
-                          <path d="M23.25 21H22.065L21.645 20.595C23.115 18.885 24 16.665 24 14.25C24 8.865 19.635 4.5 14.25 4.5C8.865 4.5 4.5 8.865 4.5 14.25C4.5 19.635 8.865 24 14.25 24C16.665 24 18.885 23.115 20.595 21.645L21 22.065V23.25L28.5 30.735L30.735 28.5L23.25 21ZM14.25 21C10.515 21 7.5 17.985 7.5 14.25C7.5 10.515 10.515 7.5 14.25 7.5C17.985 7.5 21 10.515 21 14.25C21 17.985 17.985 21 14.25 21Z" fill="white" />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_10301_7">
-                            <rect width="36" height="36" fill="white" />
-                          </clipPath>
-                        </defs>
-                      </svg>
-                </button>
             </div>
 
-            <div class="header__lk">
-                <img class="header__lk-icon" src="/img/header/person.svg" alt="">
-                <p class="header__lk-caption">Профиль</p>
-            </div>
+            <div class="header__icons">
+              <div class="header__icon header__lk">
+                  <img class="header__lk-icon" src="/img/header/person.svg" alt="">
+                  <p class="header__lk-caption">Профиль</p>
+              </div>
 
-            <div class="header__basket">
-                <img class="header__lk-icon" src="/img/header/shopping_cart.svg" alt="">
-                <p class="header__lk-caption">Корзина</p>
-            </div>
+              <div class="header__icon header__basket">
+                  <img class="header__lk-icon" src="/img/header/shopping_cart.svg" alt="">
+                  <p class="header__lk-caption">Корзина</p>
+              </div>
 
-            <div class="header__like">
-                <img class="header__lk-icon" src="/img/header/favorite.svg" alt="">
-                <p class="header__lk-caption">Избранное</p>
+              <div class="header__icon header__like">
+                  <img class="header__lk-icon" src="/img/header/favorite.svg" alt="">
+                  <p class="header__lk-caption">Избранное</p>
+              </div>
             </div>
         </div>
     </header>
-    <main class="main"></main>
+    <main class="main">
+      <div class="container">
+        <div class="gallery">
+          <img class="gallery__icon gallery__icon-01" src="/img/gallery/banner.png" alt="">
+          <img class="gallery__icon gallery__icon-02" src="/img/gallery/Group 136.png" alt="">
+          <img class="gallery__icon gallery__icon-03" src="/img/gallery/Group 137.png" alt="">
+          <img class="gallery__icon gallery__icon-04" src="/img/gallery/Group 139.png" alt="">
+          <img class="gallery__icon gallery__icon-05" src="/img/gallery/Group 141.png" alt="">
+          <img class="gallery__icon gallery__icon-06" src="/img/gallery/Group 138.png" alt="">
+          <img class="gallery__icon gallery__icon-07" src="/img/gallery/Group 140.png" alt="">
+          <img class="gallery__icon gallery__icon-08" src="/img/gallery/Group 144.png" alt="">
+          <img class="gallery__icon gallery__icon-09" src="/img/gallery/Group 143.png" alt="">
+          <img class="gallery__icon gallery__icon-10" src="/img/gallery/Group 142.png" alt="">
+          <img class="gallery__icon gallery__icon-11" src="/img/gallery/Rectangle 108.png" alt="">
+        </div>
+      </div>
+    </main>
 </body>
 </html>
