@@ -40,12 +40,12 @@
   }
 
   .preview__cart-halls {
-    width: 193px;
+    max-width: 193px;
     text-align: center;
   }
 
   .preview__cart-equipment {
-    width: 166px;
+    max-width: 166px;
     height: 174px;
     text-align: center;
   }
