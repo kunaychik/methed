@@ -229,9 +229,21 @@
 
 
 @media (min-width: 768px) and (max-width: 1290px) {
+  .reservation__title {
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 133%;
+    font-weight: 700;
+  }
+
+  .reservation__legend {
+    font-weight: 700;
+    margin-bottom: 26px;
+  }
+
   .reservation__label-hall {
-    padding: 7px 15px;
-    width: 180px;
+    padding: 7px 26px;
+    width: 100%;
     display: block;
     font-size: 20px;
     line-height: 133%;
@@ -241,5 +253,58 @@
     background: var(--text-color);
     border-radius: 8px;
   }
+
+  .reservation__fieldset-entertainment {
+    gap: 40px;
+  }
+
+  .reservation__fieldset-date {
+    margin-bottom: 50px;
+    height: 216px;
+  }
+
+  .reservation__list-date {
+    min-width: 300px;
+    
+  }
+
+  .reservation__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reservation__input {
+    width: 100%;
+  }
+
+  .reservation__input:focus {
+    border: 2px solid var(--text-accented);
+    transition-duration: 200ms;
+    transition-property: border;
+  }
+
+  .reservation__input_none {
+    display: none;
+  }
+
+  .reservation__button-container {
+    padding: 0 100px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .reservation__button {
+    padding: 16px 50px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: var(--color-actions-light);
+    border-radius: 10px;
+    border-color: var(--text-color);
+  }
+
+  
 }
 
