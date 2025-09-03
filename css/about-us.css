@@ -6,12 +6,16 @@
   }
 
   .about-us__content {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4 250px);
     margin: auto;
-    gap: 6.07%;
+    gap: 39px 6.09%;
   }
 
   .about-us__img {
+    grid-column: 1/2;
+    grid-row: 1/5;
     min-width: 600px;
     min-height: 596px;
     background-image: url(../img/about-us/img_about_us.png);
@@ -21,18 +25,27 @@
   }
 
   .about-us__subtitle {
-    
+    grid-column: 2/3;
     font-weight: 400;
     line-height: 140%;
   }
 
   .about-us__subtitle:first-of-type {
-    margin-bottom: 42px;
+    grid-row: 1/2;
+  }
+
+  .about-us__subtitle:last-of-type {
+    grid-row: 2/3;
+  }
+
+  .blockquote {
+    grid-column: 2/3;
+    grid-row: 3/5;
   }
 
   .blockquote__paragraph {
-    padding: 34px 0 40px 31px;
-    
+    padding: 0 0 40px 31px;
+    max-width: 429px;
     font-weight: 400;
     font-size: 44px;
     line-height: 114%;
@@ -91,9 +104,7 @@
     }
 
     .about-us__content {
-      display: flex;
-      margin: auto;
-      gap: 3.4%;
+      gap: 26px 3.4%;
     }
 
     .about-us__img {
@@ -102,6 +113,67 @@
       width: 100%;
       min-height: 0;
       max-height: 417px;
+
+    }
+
+    .about-us__subtitle {
+      font-size: 18px;
+      line-height: 133%;
+    }
+
+    .blockquote__paragraph {
+      padding: 26px 0 13px 28px;
+      font-size: 30px;
+      line-height: 120%;
+      max-width: 410px;
+    }
+
+    .blockquote__paragraph::before{
+      right: 25px;
+      height: 15px;
+      width: 15px;
+    }
+
+    .blockquote__paragraph::after{
+      height: 15px;
+      width: 15px;
+    }
+
+    .blockquote__author {
+      width: 330px;
+    }
+
+    .blockquote__img {
+      width: 70px;
+      height: 70px;
+      margin-right: 35px;
+    }
+
+    .blockquote__quote {
+      font-size: 18px;
+      line-height: 144%;
+    }
+  }
+
+
+  @media (min-width: 498px) and (max-width: 767px) {
+    .about-us__title {
+      margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 150%;
+    }
+
+    .about-us__content {
+      grid-template-rows: repeat(3 190px);
+      gap: 30px 28px;
+    }
+
+    .about-us__img {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      min-width: 600px;
+      min-height: 596px;
       background-image: url(../img/about-us/img_about_us.png);
       background-size: contain;
       background-repeat: no-repeat;
@@ -109,7 +181,8 @@
     }
 
     .about-us__subtitle {
-      
+      grid-column: 2/3;
+      grid-row: 1/2;
       font-weight: 400;
       line-height: 140%;
     }
@@ -118,9 +191,14 @@
       margin-bottom: 42px;
     }
 
+    .blockquote {
+      grid-column: 1/3;
+      grid-row: 2/3;
+    }
+
     .blockquote__paragraph {
       padding: 34px 0 40px 31px;
-      
+      max-width: 429px;
       font-weight: 400;
       font-size: 44px;
       line-height: 114%;
