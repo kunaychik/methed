@@ -244,3 +244,83 @@
       line-height: 144%;
     }
   }
+
+  @media only screen and (max-width: 497px) {
+      .about-us__title {
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 129%;
+      }
+
+      .about-us__content {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, minmax(0, 130px));
+        gap: 20px;
+      }
+
+      .about-us__img {
+        grid-column: 1/2;
+        grid-row: 3/5;
+        min-width: 0;
+        max-width: 280px;
+        width: 100%;
+        min-height: 0;
+        max-height: 280px;
+
+      }
+
+      .about-us__subtitle {
+        grid-column: 1/2;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+      }
+
+      .about-us__subtitle:first-of-type {
+        grid-row: 1/2;
+      }
+
+      .about-us__subtitle:last-of-type {
+        grid-row: 2/3;
+      }
+
+      .blockquote {
+        grid-column: 1/2;
+        grid-row: 5/6;
+      }
+
+      .blockquote__paragraph {
+        padding: 0 0 8px 9px;
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 144%;
+      }
+
+      .blockquote__paragraph::before{
+        right: 34px;
+        height: 11px;
+        width: 11px;
+      }
+
+      .blockquote__paragraph::after{
+        height: 11px;
+        width: 11px;
+      }
+
+      .blockquote__author {
+        justify-self: flex-start;
+        width: 100%;
+      }
+
+      .blockquote__img {
+        width: 56px;
+        height: 56px;
+        margin-right: 11px;
+      }
+
+      .blockquote__quote {
+        font-size: 12px;
+        line-height: 133%;
+      }
+  }

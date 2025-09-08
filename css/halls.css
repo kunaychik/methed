@@ -1,40 +1,40 @@
    .halls__title {
-    margin-bottom: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
     font-size: 40px;
     text-transform: uppercase;
     text-align: center;
   }
 
   .halls__list {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     align-items: center;
+    gap: 20px;
   }
 
   .halls__item {
     padding: 135px 0;
-    width: 580px;
-    height: 349px;
+    width: 100%;
+    max-width: 580px;
+    
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
   }
 
-  .halls__item:nth-of-type(odd) {
-    margin-right: 20px;
-  }
-
-  .halls__item:nth-child(-n+2) {
-    margin-bottom: 20px;
-  }
+  
 
   .halls__link {
     text-decoration: none;
+    font-weight: 700;
     font-size: 70px;
     line-height: 114%;
     text-transform: uppercase;
     color: var(--text-color);
+    display: inline-flex;
   }
 
   .halls__item-vibes {
@@ -57,4 +57,69 @@
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     transform: scale(1.1);
     transition-duration: 300ms;
+  }
+
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .halls__title {
+      margin-bottom: 37px;
+      font-size: 30px;
+      line-height: 133%;
+    }
+
+    .halls__list {
+      gap: 17px 20px;
+    }
+
+    .halls__item {
+      padding: 60px 0 39px;      
+    }
+
+    .halls__link {
+      max-width: 252px;
+      font-size: 50px;
+      line-height: 120%;    
+      display: inline-flex;
+    }
+  }
+
+  @media (min-width: 498px) and (max-width: 767px) {
+    .halls__title {
+      margin-bottom: 35px;
+      font-size: 24px;
+      line-height: 150%;
+    }
+
+    .halls__item {
+      padding: 72px 0;  
+    }
+
+    .halls__link {
+      max-width: 121px;   
+      font-size: 40px;
+      line-height: 125%;       
+    }
+  }
+
+  @media only screen and (max-width: 497px) {
+    .halls__title {
+      margin-bottom: 15px;
+      font-size: 14px;
+      line-height: 129%;
+    }
+
+    .halls__list {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 1fr);
+      gap: 10px;
+    }
+
+    .halls__item {
+      padding: 50px 0; 
+    }    
+
+    .halls__link {
+      font-size: 26px;
+      line-height: 131%;
+      max-width: 79px;
+    }
   }
