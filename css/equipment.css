@@ -9,20 +9,29 @@
 }
 
 .equipment__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 380px));
+    grid-auto-rows: auto;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 40px 20px;
-    margin-bottom: 70px;
+    
 }
 
 .equipment__item {
-    padding: 166px 40px 0;
+    display: flex;
+    align-items: flex-end;
+    padding: 34px 40px;
     height: 228px;
-    width: 380px;
+    max-width: 380px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
     line-height: 140%;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     cursor: pointer;
+    grid-row-end: span 6;
 }
 
 .equipment__item_VR {
@@ -31,8 +40,8 @@
 
 .equipment__item_audio-system {
     background-image: url(../img/equipment/audio.png);
-    position: relative;
-    top: 70px;
+    grid-row-end: span 8;
+    align-self: flex-end;
 }
 
 .equipment__item_karaoke {
@@ -44,18 +53,78 @@
 }
 
 .equipment__item_cinema-services {
-    background-image: url(../img/equipment/cinema.png);
-    position: relative;
-    top: 70px;
-
+    background-image: url(../img/equipment/cinema.png); 
 }
 
 .equipment__item_РlаyStаtiоn {
     background-image: url(../img/equipment/РlаyStаtiоn.png);
+    
 }
 
 .equipment__item:hover {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     transform: scale(1.1);
     transition-duration: 300ms;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .equipment__title {
+        margin-bottom: 36px;
+        max-width: 655px;
+        width: 100%;
+        font-size: 30px;
+        line-height: 133%;
+    }
+
+    .equipment__list {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 287px));
+        gap: 30px 22px;
+        
+    }
+
+    .equipment__item {
+        padding: 30px 20px;
+        height: 172px;
+        max-width: 287px;
+        font-weight: 700;
+    }
+
+}
+
+
+@media (min-width: 498px) and (max-width: 767px) {
+    .equipment__title {
+        margin-bottom: 30px;
+        max-width: 445px;
+        width: 100%;
+        font-size: 24px;
+        line-height: 150%;
+    }
+
+    .equipment__list {
+        grid-template-columns: repeat(2, minmax(0, 334px));
+        gap: 20px;
+    }
+
+    .equipment__item {
+        padding: 40px 30px;
+        height: 200px;
+        max-width: 334px;
+        width: 100%;
+        grid-row-end: span 11;
+    }
+
+    .equipment__item_audio-system {
+        grid-row-end: span 11;
+    }
+
+    .equipment__item_cinema-services {
+        grid-column: 1/2;
+    }
+
+    .equipment__item_РlаyStаtiоn {
+        grid-column: 2/3;
+    }
+
 }
