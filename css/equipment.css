@@ -40,8 +40,7 @@
 
 .equipment__item_audio-system {
     background-image: url(../img/equipment/audio.png);
-    grid-row-end: span 8;
-    align-self: flex-end;
+    grid-area: 3 / 2 / span 6 / auto;
 }
 
 .equipment__item_karaoke {
@@ -54,6 +53,7 @@
 
 .equipment__item_cinema-services {
     background-image: url(../img/equipment/cinema.png); 
+    grid-area: 9 / 2 / span 6 / auto;
 }
 
 .equipment__item_РlаyStаtiоn {
@@ -115,16 +115,16 @@
         grid-row-end: span 11;
     }
 
+
     .equipment__item_audio-system {
-        grid-row-end: span 11;
+        background-image: url(../img/equipment/audio.png);
+        grid-area: 1 / 2 / span 11 / auto;
     }
 
     .equipment__item_cinema-services {
-        grid-column: 1/2;
+        background-image: url(../img/equipment/cinema.png); 
+        grid-area: 23 / 1 / span 11 / auto;
     }
 
-    .equipment__item_РlаyStаtiоn {
-        grid-column: 2/3;
-    }
 
 }
