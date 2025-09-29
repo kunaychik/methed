@@ -18,20 +18,28 @@
 }
 
 .equipment__item {
+    position: relative;
     display: flex;
     align-items: flex-end;
-    padding: 34px 40px;
     height: 228px;
     max-width: 380px;
     width: 100%;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 140%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     cursor: pointer;
     grid-row-end: span 6;
+}
+
+.equipment__item_text {
+    position: absolute;
+    top: 166px;
+    right: 40px;
+    left: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    max-width: 300px;
 }
 
 .equipment__item_VR {
@@ -67,7 +75,7 @@
     transition-duration: 300ms;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 986px) and (max-width: 1185px) {
     .equipment__title {
         margin-bottom: 36px;
         max-width: 655px;
@@ -84,16 +92,23 @@
     }
 
     .equipment__item {
-        padding: 30px 20px;
         height: 172px;
-        max-width: 287px;
-        font-weight: 700;
+    }
+
+    .equipment__item_text {
+        top: 114px;
+        right: 20px;
+        left: 20px;
+    }
+
+    .equipment__item_cinema-services .equipment__item_text {
+        top: 83px;
     }
 
 }
 
 
-@media (min-width: 498px) and (max-width: 767px) {
+@media (min-width: 528px) and (max-width: 986px) {
     .equipment__title {
         margin-bottom: 30px;
         max-width: 445px;
@@ -108,11 +123,16 @@
     }
 
     .equipment__item {
-        padding: 40px 30px;
         height: 200px;
         max-width: 334px;
         width: 100%;
         grid-row-end: span 11;
+    }
+
+    .equipment__item_text {
+        top: 132px;
+        right: 30px;
+        left: 30px;
     }
 
 
@@ -126,5 +146,55 @@
         grid-area: 23 / 1 / span 11 / auto;
     }
 
+
+}
+
+@media only screen and (max-width: 705px) {
+     .equipment__item_text {
+        top: 112px;
+        right: 20px;
+        left: 20px;
+        
+    }
+}
+
+@media only screen and (max-width: 527px) {
+    .equipment__title {
+        margin-bottom: 15px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 129%;
+    }
+
+    .equipment__list {
+        grid-template-columns: repeat(2, minmax(0, 259px));
+        gap: 10px;
+        
+    }
+
+    .equipment__item {
+        height: 75px;
+        max-width: 259;
+        width: 100%;
+        grid-row-end: span 8;
+    }
+
+    .equipment__item_text {
+        position: absolute;
+        top: 30px;
+        right: 10px;
+        left: 10px;
+        font-size: 10px;
+    }
+
+    .equipment__item_audio-system {
+        background-image: url(../img/equipment/audio.png);
+        grid-area: 1 / 2 / span 8 / auto;
+    }
+
+    .equipment__item_cinema-services {
+        background-image: url(../img/equipment/cinema.png); 
+        grid-area: 17 / 1 / span 8 / auto;
+    }
 
 }

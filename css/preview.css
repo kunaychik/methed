@@ -1,5 +1,4 @@
-  .preview__content {
-    padding-top: 100px;
+  .preview__content { 
     min-height: 923px;
     max-width: 1440px;
   }
@@ -21,6 +20,7 @@
     width: 675px;
     height: 762px;
     background-image: url(../img/preview/preview.png);
+    background-size: cover;
   }
 
   .preview__subtitle {
@@ -111,6 +111,7 @@
     border: none;
     background-color: transparent;
     background-image: url(../img/preview/button-down.svg);
+    background-size: cover;
   }
 
   .preview__button-down:hover {
@@ -129,4 +130,211 @@
     background-image: url(../img/preview/down-active.svg);
     transition-duration: 500ms;
     transition-property: background-image;
+  }
+
+  @media (min-width: 898px) and (max-width: 1200px) {
+    .preview__content {
+      min-height: 585px;
+      max-width: 100%;
+    }
+
+    .preview__title {
+      font-size: 120px;
+    }
+
+    .preview__title::after {
+      top: 63px;
+      width: 453px;
+      height: 520px;
+    }
+
+    .preview__subtitle {
+      font-size: 22px;
+      line-height: 136%;
+    }
+
+    .preview__info {
+      height: 173px;
+      margin-bottom: 80px;
+    }
+
+    .preview__cart-halls {
+      max-width: 168px;
+    }
+
+    .preview__cart-equipment {
+      max-width: 140px;
+      height: 145px;
+    }
+
+    .preview__text-halls {
+      padding-top: 30px;
+      margin-bottom: 31px;
+      font-size: 80px;
+    }
+
+    .preview__text-equipment {
+      padding-top: 13px;
+      margin-bottom: 23px;
+      font-size: 60px;
+    }
+
+    .preview__text {
+      font-size: 26px;
+    }
+
+    .preview__button {
+      padding: 17px 48px;
+      font-size: 22px;
+      line-height: 136%;
+    }
+
+    .preview__button-down {
+      height: 67px;
+      width: 67px;
+      left: 45%;
+      bottom: 46px;
+    }
+
+  }
+
+  @media (min-width: 498px) and (max-width: 897px) {
+    .preview__content {
+      min-height: 538px;
+      max-width: 100%;
+    }
+
+    .preview__title {
+      font-size: 86px;
+    }
+
+    .preview__title::after {
+      top: 58px;
+      width: 418px;
+      height: 479px;
+    }
+
+    .preview__subtitle {
+      font-size: 18px;
+      line-height: 133%;
+      padding-left: 67px;
+    }
+
+    .preview__info {
+      height: 107px;
+      margin-bottom: 100px;
+      gap: 30px;
+    }
+
+    .preview__cart-halls {
+      max-width: 103px;
+    }
+
+    .preview__cart-equipment {
+      max-width: 89px;
+      height: 92px;
+    }
+
+    .preview__text-halls {
+      padding-top: 30px;
+      margin-bottom: 31px;
+      font-size: 50px;
+    }
+
+    .preview__text-equipment {
+      padding-top: 0px;
+      margin-bottom: 23px;
+      font-size: 40px;
+    }
+
+    .preview__text {
+      font-size: 16px;
+    }
+
+    .preview__button {
+      padding: 11px 35px;
+      font-size: 16px;
+      line-height: 150%;
+    }
+
+    .preview__button-down {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 653px) {
+    .preview__title {
+      font-size: 70px;
+    }
+
+    .preview__title::after {
+      top: 58px;
+      width: 307px;
+      height: 352px;
+    }
+  }
+
+  @media only screen and (max-width: 558px) {
+    .preview__content {
+      min-height: 204px;
+      max-width: 100%;
+    }
+
+    .preview__title {
+      font-size: 35px;
+      letter-spacing: -0.08em;
+    }
+
+    .preview__title::after {
+      top: 25px;
+      width: 161px;
+      height: 179px;
+    }
+
+    .preview__subtitle {
+      font-size: 10px;
+      line-height: 140%;
+      padding-left: 20px;
+    }
+
+    .preview__info {
+      height: 59px;
+      margin-bottom: 30px;
+      gap: 20px;
+    }
+
+    .preview__cart-halls {
+      max-width: 65px;
+    }
+
+    .preview__cart-equipment {
+      max-width: 54px;
+      height: 53px;
+    }
+
+    .preview__text-halls {
+      padding-top: 0px;
+      margin-bottom: 11px;
+      font-size: 26px;
+    }
+
+    .preview__text-equipment {
+      padding-top: 0px;
+      margin-bottom: 9px;
+      font-size: 22px;
+    }
+
+    .preview__text {
+      font-size: 10px;
+    }
+
+    .preview__button {
+      padding: 8px 13px;
+      font-size: 10px;
+      line-height: 120%;
+    }
+
+    .preview__button-down {
+      display: none;
+    }
   }

@@ -18,11 +18,8 @@
     margin-bottom: 50px;
 }
 
-.reviews__author {
-    margin-right: 20px;
-}
-
 .reviews__img {
+    margin: 0 20px 11px 0;
     height: 280px;
     min-width: 280px;
     border-radius: 50%;
@@ -47,6 +44,7 @@
 
 .reviews__figcaption {
     font-weight: 400;
+    font-size: 20px;
     line-height: 140%;
     text-align: center;
 }
@@ -56,3 +54,110 @@
     font-weight: 400;
     line-height: 140%;
 }
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+
+    .reviews__title {
+        margin-bottom: 26px;
+        font-size: 30px;
+        line-height: 133%;
+    }
+
+    .reviews__content {
+        padding: 0 79px 0 74px;
+    }
+
+    .reviews__review:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .reviews__img {
+        margin: 0 38px 21px 0;
+        height: 172px;
+        min-width: 172px;
+    }
+
+    .reviews__figcaption {
+        font-size: 18px;
+        line-height: 144%;
+    }
+
+    .reviews__text {
+        padding-top: 33px;
+        font-size: 18px;
+        line-height: 144%;
+    }
+
+ }
+
+ @media (min-width: 568px) and (max-width: 767px) {
+    .reviews__title {
+        margin-bottom: 31px;
+        font-size: 24px;
+        line-height: 150%;
+    }
+
+    .reviews__content {
+        padding: 0 64px 0 63px;
+    }
+
+    .reviews__review:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .reviews__img {
+        margin: 0 15px 17px 0;
+        height: 153px;
+        min-width: 153px;
+    }
+
+    .reviews__figcaption {
+        font-size: 14px;
+        line-height: 143%;
+    }
+
+    .reviews__text {
+        padding-top: 30px;
+        font-size: 16px;
+        line-height: 137%;
+    }
+ }
+
+   @media only screen and (max-width: 567px) {
+    .reviews__title {
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 114%;
+    }
+
+    .reviews__content {
+        padding: 0;
+    }
+
+    .reviews__review {
+        flex-direction: column;
+        gap: 16px
+    }
+
+    .reviews__review:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .reviews__img {
+        margin: 0 auto 9px;
+        height: 86px;
+        min-width: 86px;
+        max-width: 86px;
+    }
+
+    .reviews__figcaption {
+        font-size: 14px;
+        line-height: 143%;
+    }
+
+    .reviews__text {
+        padding-top: 0px;
+        font-size: 12px;
+        line-height: 133%;
+    }
+   }

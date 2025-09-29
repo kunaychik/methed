@@ -40,6 +40,7 @@
     width: 46px;
     height: 46px;
     background-image: url(../img/faq/open-purple.svg);
+    background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
 }
@@ -73,4 +74,84 @@
     background-image: url(../img/faq/close-acrive.svg);
     transition-duration: 300ms;
     transition-property: background-image;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .faq__item:nth-of-type(even){
+        color:  #1c1a1a;
+        background-color: var(--text-color);
+    }
+
+    .faq__item:nth-of-type(even):after {
+        background-image: url(../img/faq/open-purple.svg);
+    }
+
+    .faq__item:nth-of-type(even):hover:after {
+        background-image: url(../img/faq/open-purple-hover.svg);
+    }
+
+    .faq__item:nth-of-type(even):active:after {
+        background-image: url(../img/faq/close-purple-acrive.svg);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .faq__title {
+        margin-bottom: 26px;
+        font-size: 30px;
+        line-height: 133%;
+    }
+
+    .faq__item {
+        padding: 12px 20px 12px 25px;
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .faq__item:not(:last-child){
+        margin-bottom: 16px;
+    }
+    
+}
+
+@media (min-width: 610px) and (max-width: 767px) {
+    .faq__title {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 108%;
+    }
+
+    .faq__item {
+        padding: 12px 65px 12px 54px;
+        font-size: 18px;
+        line-height: 133%;
+    }
+
+    .faq__item:not(:last-child){
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width: 609px) {
+    .faq__title {
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 129%;
+    }
+
+    .faq__item {
+        padding: 7px 13px 7px 10px;
+        font-size: 12px;
+        line-height: 133%;
+    }
+
+    .faq__item:not(:last-child){
+        margin-bottom: 10px;
+    }
+
+    .faq__item:after {
+        width: 30px;
+        height: 30px;
+    }
 }
